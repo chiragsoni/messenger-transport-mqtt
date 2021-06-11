@@ -1,5 +1,5 @@
 {
-  "name": "vs-point/messenger-transport-mqtt",
+  "name": "chiragsoni/messenger-transport-mqtt",
   "type": "library",
   "description": "Symfony Messenger transport for the MQTT.",
   "license": [
@@ -20,7 +20,14 @@
       "homepage" : "https://www.vs-point.cz"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/chiragsoni/messenger-transport-mqtt"
+    }
+  ],
   "require": {
+    "chiragsoni/messenger-mqtt": "dev-master",
     "ext-mosquitto": "*",
     "php": "~7.1",
     "symfony/messenger": "~5.1"
